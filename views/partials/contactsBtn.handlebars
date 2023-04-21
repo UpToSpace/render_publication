@@ -1,0 +1,16 @@
+<table class="table">
+    <tr>
+        <th>ФИО</th>
+        <th>Номер телефона</th>
+    </tr>
+    {{#each contacts}}
+        <tr
+        {{#if @root.enabledContacts}}
+            class="enabled"
+            onclick="window.location.href+=`/update/{{this.id}}`"
+        {{/if}}>
+            <td style="width: 300px;">{{this.fullName}}</td>
+            <td style="width: 100px; align-items:center;">{{this.phoneNumber}}</td>
+        </tr>
+    {{/each}}
+</table>

@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": 0,
+      "fullName": "Фамилия",
+      "phoneNumber": "(29)0000000"
+    },
+    {
+      "id": 1,
+      "fullName": "Фамилия1",
+      "phoneNumber": "(33)1111111"
+    },
+    {
+      "id": 2,
+      "fullName": "aaaa",
+      "phoneNumber": "(29)1119939"
+    },
+    {
+      "id": 3,
+      "fullName": "Фамилияz",
+      "phoneNumber": "(33)5666666"
+    }
+  ]
+}
